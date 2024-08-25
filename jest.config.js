@@ -1,6 +1,9 @@
 module.exports = {
   preset: "ts-jest",
   testEnvironment: "jsdom",
-  testMatch: ["**/__tests__/**/*.ts?(x)", "**/?(*.)+(spec|test).ts?(x)"],
-  moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
+  testPathIgnorePatterns: ["/node_modules/", "/dist/"],
+  testMatch: [
+    "<rootDir>/src/**/__tests__/**/*.{ts,tsx}",
+    "<rootDir>/src/**/*.{spec,test}.{ts,tsx}",
+  ],
 };
