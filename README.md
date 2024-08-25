@@ -1,6 +1,6 @@
 # react-event-context
 
-![CI](https://github.com/jonmumm/react-event-hooks/workflows/CI/badge.svg)
+![CI](https://github.com/jonmumm/react-event-context/workflows/CI/badge.svg)
 
 A lightweight, type-safe event management library for React applications. Create typed event buses with Zod schemas, enabling decoupled communication and centralized event handling in complex React apps.
 
@@ -15,7 +15,7 @@ A lightweight, type-safe event management library for React applications. Create
 ## Installation
 
 ```bash
-npm install react-event-hooks zod
+npm install react-event-context zod
 ```
 
 ## Usage
