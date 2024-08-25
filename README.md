@@ -41,7 +41,7 @@ type AppEvent = z.infer<typeof AppEventSchema>;
 Create an event context using the `createEventContext` function:
 
 ```typescript
-import { createEventContext } from 'react-event-hooks';
+import { createEventContext } from 'react-event-context';
 
 export const AppEventContext = createEventContext(AppEventSchema);
 ```
@@ -118,7 +118,7 @@ function EventLogger() {
 
 ## Typed Event Bus Concept
 
-`react-event-hooks` allows you to create a typed event bus in your React application. This means:
+`react-event-context` allows you to create a typed event bus in your React application. This means:
 
 1. **Type Safety**: All events are typed according to your Zod schema, providing compile-time checks and autocompletion.
 2. **Centralized Event Management**: You can define all your application's events in one place, making it easier to understand and manage the event flow.
