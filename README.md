@@ -1,4 +1,4 @@
-# react-event-hooks
+# react-event-context
 
 ![CI](https://github.com/jonmumm/react-event-hooks/workflows/CI/badge.svg)
 
